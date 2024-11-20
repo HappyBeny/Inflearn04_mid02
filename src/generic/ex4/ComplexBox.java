@@ -10,11 +10,11 @@ public class ComplexBox<T extends Animal> {
         this.animal = animal;
     }
 
-    public <T> T printAndReturn(T t) {
+    public <Z> Z printAndReturn(Z z) {
         System.out.println("animal.className: " + animal.getClass().getName());
-        System.out.println("t.className: " + t.getClass().getName());
+        System.out.println("t.className: " + z.getClass().getName());
         // t.getName(); // 호출 불가 메서드는 <T> 타입이다. <T extends Animal> 타입이 아니다.
-        return t;
+        return z;
     }
 
 }
