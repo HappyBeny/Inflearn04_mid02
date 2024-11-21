@@ -53,6 +53,7 @@ public class MyArrayListV4<E> {
         elementData = Arrays.copyOf(elementData, newCapacity);
     }
     
+    @SuppressWarnings("unchecked")
     public E get(int index) {
         return (E) elementData[index];
     }
