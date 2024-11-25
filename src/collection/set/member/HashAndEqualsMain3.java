@@ -21,5 +21,8 @@ public class HashAndEqualsMain3 {
         System.out.println("searchValue.hashCode() = " + searchValue.hashCode());
         boolean contains = set.contains(searchValue);
         System.out.println("contains = " + contains);
+
+        System.out.println("Aa.hashCode() = " + "Aa".hashCode());
+        System.out.println("BB.hashCode() = " + "BB".hashCode());
     }
 }
