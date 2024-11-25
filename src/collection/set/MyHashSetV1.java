@@ -3,7 +3,7 @@ package collection.set;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class MyHasSetV1 {
+public class MyHashSetV1 {
     static final int DEFAULT_INITIAL_CAPACITY = 16;
 
     LinkedList<Integer>[] buckets;
@@ -12,11 +12,11 @@ public class MyHasSetV1 {
     private int capacity = DEFAULT_INITIAL_CAPACITY;
 
 
-    public MyHasSetV1() {
+    public MyHashSetV1() {
         initBuckets();
     }
 
-    public MyHasSetV1(int capacity) {
+    public MyHashSetV1(int capacity) {
         this.capacity = capacity;
         initBuckets();
     }

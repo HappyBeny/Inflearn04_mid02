@@ -2,7 +2,7 @@ package collection.set;
 
 public class HashSetV1Main {
     public static void main(String[] args) {
-        MyHasSetV1 set = new MyHasSetV1(10);
+        MyHashSetV1 set = new MyHashSetV1(10);
         set.add(1);
         set.add(2);
         set.add(5);
